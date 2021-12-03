@@ -14,6 +14,6 @@ jobs:
           server: 92.222.117.216
           username: root
           password: ${{ secrets.ftp_password }}
-          protocol: ftps
+          protocol: ftp
           port: 21
           server-dir: /var/www/nuit2info2021.maherdev.com/
