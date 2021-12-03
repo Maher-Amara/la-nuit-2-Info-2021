@@ -9,8 +9,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?= $title ?> | Bathijs Admin</title>
-    <meta name="description" content="<?= $title ?> | Bathijs Admin">
+    <title><?= $title ?> | Nuit2info Admin</title>
+    <meta name="description" content="<?= $title ?> | Nuit2info Admin">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="">
     <link rel="shortcut icon" href="<?= base_url('favicon.ico') ?>">
@@ -36,7 +36,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="<?= base_url('admin') ?>">
-                    Bathijs Admin
+                    Nuit2info Admin
                 </a>
                 <a class="navbar-brand hidden" href="<?= base_url('admin') ?>">
                     A
