@@ -12,3 +12,12 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 node_modules
 node_modules
+.github
+.github/*
+babel.config.js
+composer.json
+package-lock.json
+*.json
+webpack.config.js
+.env
+
