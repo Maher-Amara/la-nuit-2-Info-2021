@@ -1,0 +1,118 @@
+CRITICAL - 2021-11-13 14:50:06 --> Undefined variable: tempProjects
+#0 /var/www/dev.bathijs.local/app/Views/admin/projects.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(37): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 14:52:44 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(37): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-13 14:58:43 --> Undefined variable: uploadErrors
+#0 /var/www/dev.bathijs.local/app/Views/admin/project-add.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(74): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->new_project()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 15:03:41 --> Undefined variable: uploadErrors
+#0 /var/www/dev.bathijs.local/app/Views/admin/project-add.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(74): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->new_project()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 15:04:05 --> syntax error, unexpected '?>'
+#0 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(74): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->new_project()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-13 15:04:23 --> Undefined variable: uploadErrors
+#0 /var/www/dev.bathijs.local/app/Views/admin/project-add.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(74): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->new_project()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-13 16:21:06 --> The original file is not a valid file.
+#0 /var/www/dev.bathijs.local/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(144): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->save_draft()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-13 16:36:23 -->  route cannot be found while reverse-routing.
+#0 /var/www/dev.bathijs.local/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/dev.bathijs.local/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(145): redirect()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->save_draft()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-13 16:39:40 -->  route cannot be found while reverse-routing.
+#0 /var/www/dev.bathijs.local/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/dev.bathijs.local/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(145): redirect()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->save_draft()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-13 16:40:22 -->  route cannot be found while reverse-routing.
+#0 /var/www/dev.bathijs.local/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/dev.bathijs.local/system/Common.php(835): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(145): redirect()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->save_draft()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-13 17:55:56 -->  is not a valid rule.
+#0 /var/www/dev.bathijs.local/system/Validation/Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/dev.bathijs.local/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/dev.bathijs.local/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(237): CodeIgniter\Controller->validate()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->publish()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 18:29:18 --> Undefined index: title
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/project_view.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Projects.php(73): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Projects->view_project()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

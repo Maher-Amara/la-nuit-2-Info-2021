@@ -1,0 +1,416 @@
+CRITICAL - 2021-10-21 06:33:07 --> Undefined variable: adminId
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 06:33:23 --> Object of class App\Models\Admin\AdminModel could not be converted to string
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 06:33:24 --> Object of class App\Models\Admin\AdminModel could not be converted to string
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 06:38:21 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:43:06 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:43:07 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:43:54 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:43:55 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:43:58 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:44:08 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:44:35 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Categories.php(22): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Categories->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:45:10 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Testimonials.php(22): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Testimonials->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:45:30 --> Undefined variable: avatar
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Team.php(22): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Team->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-21 06:59:28 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 07:07:27 --> Class 'Config\App\Filters\AuthCheck' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-10-21 07:08:25 --> Class 'Config\App\Filters\AuthCheck' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-10-21 07:08:26 --> Class 'Config\App\Filters\AuthCheck' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-10-21 07:13:26 --> Class 'Config\App\Filters\AuthCheck' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-10-21 07:34:10 --> Too few arguments to function App\Controllers\Admin\Authentication::reset_password(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Authentication->reset_password()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:26:45 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 08:31:16 --> Too few arguments to function App\Controllers\Admin\Projects::delete(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->delete()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:31:49 --> Too few arguments to function App\Controllers\Admin\Projects::delete(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->delete()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:36:07 --> Too few arguments to function App\Controllers\Admin\Projects::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:37:25 --> Too few arguments to function App\Controllers\Admin\Projects::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:39:04 --> Too few arguments to function App\Controllers\Admin\Projects::update_validation(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->update_validation()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:46:15 --> Too few arguments to function App\Controllers\Admin\Projects::delete(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->delete()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 08:47:22 --> Too few arguments to function App\Controllers\Admin\Projects::delete(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->delete()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 09:04:59 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Categories.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Categories->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:05:01 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Testimonials.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Testimonials->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:05:03 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Team.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Team->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:05:04 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Social.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Social->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:05:06 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Seo.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Seo->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:05:07 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Traductions.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Traductions->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:08:14 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Categories.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Categories->add_validation()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 09:14:13 --> Too few arguments to function App\Controllers\Admin\Categories::delete(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Categories->delete()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 10:13:47 --> Too few arguments to function App\Controllers\Admin\Faq::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Faq->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 10:17:27 --> Too few arguments to function App\Controllers\Admin\Faq::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Faq->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-21 10:21:13 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Faq.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Faq->add()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:24:12 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Faq.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Faq->add()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:26:27 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Faq.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Faq->add()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:28:59 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Faq.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Faq->add()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:30:51 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:30:59 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:31:02 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:31:03 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:31:48 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 10:31:49 --> Trying to access array offset on value of type null
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 14:13:35 --> Undefined variable: db
+#0 /var/www/dev.bathijs.local/app/Models/ProjectModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-21 14:13:57 --> Undefined variable: db
+#0 /var/www/dev.bathijs.local/app/Models/ProjectModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-21 14:14:04 --> Undefined variable: db
+#0 /var/www/dev.bathijs.local/app/Models/ProjectModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-21 14:15:08 --> Call to undefined function App\Models\table()
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 14:15:17 --> Undefined variable: builder
+#0 /var/www/dev.bathijs.local/app/Models/ProjectModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-21 14:15:25 --> Call to undefined function App\Models\select()
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-21 14:15:54 --> Undefined variable: table
+#0 /var/www/dev.bathijs.local/app/Models/ProjectModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-21 14:16:14 --> Undefined variable: table
+#0 /var/www/dev.bathijs.local/app/Models/ProjectModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(33): App\Models\ProjectModel->getProjectsData()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-21 14:54:30 --> Too few arguments to function App\Controllers\Admin\Projects::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

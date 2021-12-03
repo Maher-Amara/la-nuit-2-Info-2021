@@ -1,0 +1,322 @@
+CRITICAL - 2021-10-16 00:59:42 --> Invalid file: admin/auth/home.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Authentication.php(15): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Authentication->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 03:29:29 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /var/www/dev.bathijs.local/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-16 04:00:04 --> Undefined variable: breadcrumb
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Profile.php(14): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Profile->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 04:02:13 --> Undefined variable: breadcrumb
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Profile.php(14): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Profile->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 04:44:22 --> Class 'App\Admin\Models\AdminModel' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 04:44:48 --> Class 'App\Models\Admin\AdminModel' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 04:45:27 --> Class 'App\Models\Admin\AdminModel' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 04:48:39 --> Undefined variable: authorisationCount
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(16): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 04:49:00 --> Use of undefined constant authorisationCount - assumed 'authorisationCount' (this will throw an Error in a future version of PHP)
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(30): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 04:49:53 --> Undefined variable: authorisationCount
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(16): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 04:50:15 --> Undefined variable: authorisationCount
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(16): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 11:31:38 --> Undefined variable: navActive
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(30): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 11:31:41 --> Undefined variable: navActive
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(21): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 11:31:47 --> Undefined variable: navActive
+#0 /var/www/dev.bathijs.local/app/Views/admin/parts/header.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Home.php(30): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-16 11:47:48 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:47:57 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:47:59 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:51:30 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(47): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:53:29 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(47): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:55:39 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(47): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:56:27 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(47): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:56:44 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(47): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:56:54 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(47): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 11:57:36 --> Too few arguments to function App\Controllers\Admin\Projects::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 12:11:38 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 12:12:59 --> Too few arguments to function App\Controllers\Admin\Projects::delete(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->delete()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 12:13:03 --> Invalid file: admin/project.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Projects.php(80): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Projects->delete()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 12:49:16 --> Too few arguments to function App\Controllers\Admin\Categories::index(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Categories->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 12:50:51 --> Too few arguments to function App\Controllers\Admin\Categories::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Categories->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 12:56:59 --> Invalid file: admin/testimonials.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Testimonials.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Testimonials->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 12:58:44 --> Invalid file: admin/testimonials.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Testimonials.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Testimonials->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 13:07:14 --> Invalid file: admin/team.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Team.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Team->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 13:07:20 --> Invalid file: admin/team-add.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Team.php(43): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Team->add()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 13:08:52 --> Too few arguments to function App\Controllers\Admin\Team::update(), 0 passed in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Team->update()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 13:25:09 --> Invalid file: admin/social.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Social.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Social->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-16 13:31:43 --> Argument 1 passed to App\Controllers\Admin\Home::FunctionName() must be of the type int or null, string given, called in /var/www/dev.bathijs.local/system/CodeIgniter.php on line 802
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Home->FunctionName()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-16 13:33:32 --> Invalid file: admin/admins.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Admins.php(22): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Admins->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

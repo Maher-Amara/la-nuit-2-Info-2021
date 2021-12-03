@@ -1,0 +1,103 @@
+CRITICAL - 2021-10-11 15:46:32 --> Undefined variable: data
+#0 /var/www/dev.bathijs.local/app/Controllers/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 15:46:46 --> Undefined variable: data
+#0 /var/www/dev.bathijs.local/app/Controllers/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 15:46:47 --> Undefined variable: data
+#0 /var/www/dev.bathijs.local/app/Controllers/Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 15:46:50 --> Invalid file: templates/header.php
+#0 /var/www/dev.bathijs.local/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Home.php(10): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-11 17:10:46 --> Undefined variable: title
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/parts/header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Services.php(12): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Services->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 17:10:52 --> Undefined variable: title
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/parts/header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Services.php(12): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Services->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 17:10:55 --> Undefined variable: title
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/parts/header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Services.php(12): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Services->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 17:11:31 --> Undefined variable: projectNameId
+#0 /var/www/dev.bathijs.local/app/Controllers/Services.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Services->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 17:12:08 --> Undefined variable: title
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/parts/header.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Home.php(10): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 19:20:59 --> Undefined variable: categorie
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/project_categorie.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Projects.php(26): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Projects->categorie()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 19:22:20 --> Undefined variable: categorie
+#0 /var/www/dev.bathijs.local/app/Views/frontOffice/project_categorie.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Projects.php(39): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Projects->project()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

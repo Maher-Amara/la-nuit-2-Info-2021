@@ -1,0 +1,79 @@
+ERROR - 2021-11-03 12:22:53 --> Unknown column 'categorie.type' in 'field list'
+CRITICAL - 2021-11-03 12:22:53 --> Unknown column 'categorie.type' in 'field list'
+#0 /var/www/dev.bathijs.local/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/dev.bathijs.local/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/dev.bathijs.local/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/dev.bathijs.local/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/dev.bathijs.local/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/dev.bathijs.local/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/dev.bathijs.local/app/Models/Admin/AdminLogModel.php(37): CodeIgniter\BaseModel->findAll()
+#7 /var/www/dev.bathijs.local/app/Controllers/Admin/Activity.php(27): App\Models\Admin\AdminLogModel->getAdminLog()
+#8 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Activity->index()
+#9 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-03 13:43:48 --> syntax error, unexpected end of file
+#0 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Activity.php(31): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Activity->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 13:44:05 --> syntax error, unexpected end of file
+#0 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/dev.bathijs.local/app/Controllers/Admin/Activity.php(31): view()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Activity->index()
+#4 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-03 14:10:10 --> FUNCTION bathijs.DATEADD does not exist
+CRITICAL - 2021-11-03 14:10:10 --> FUNCTION bathijs.DATEADD does not exist
+#0 /var/www/dev.bathijs.local/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/dev.bathijs.local/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/dev.bathijs.local/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/dev.bathijs.local/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/dev.bathijs.local/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/dev.bathijs.local/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/dev.bathijs.local/app/Models/Admin/AdminLogModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 /var/www/dev.bathijs.local/app/Controllers/Admin/Activity.php(27): App\Models\Admin\AdminLogModel->getAdminLog()
+#8 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Activity->index()
+#9 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-03 15:08:40 --> Undefined variable: translation
+#0 /var/www/dev.bathijs.local/app/Views/admin/settings.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/View/View.php(214): include('/var/www/dev.ba...')
+#2 /var/www/dev.bathijs.local/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.bathijs.local/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(24): view()
+#5 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#6 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-03 16:32:00 --> Class 'App\Models\Admin\SettingsModel' not found
+#0 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 16:41:40 --> Undefined index: 
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 16:44:45 --> Undefined index: 
+#0 /var/www/dev.bathijs.local/app/Controllers/Admin/Settings.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.bathijs.local/system/CodeIgniter.php(802): App\Controllers\Admin\Settings->index()
+#2 /var/www/dev.bathijs.local/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.bathijs.local/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.bathijs.local/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
